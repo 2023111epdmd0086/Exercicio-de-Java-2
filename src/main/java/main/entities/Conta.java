@@ -21,6 +21,10 @@ public class Conta {
         this.nomeTitular = nomeTitular;
     }
 
+    public double getSaldoConta() {
+        return saldoConta;
+    }
+
     public void depositarDinheiro(double qtd) {
         this.saldoConta += qtd;
     }
